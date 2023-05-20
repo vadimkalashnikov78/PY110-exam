@@ -15,7 +15,7 @@ def get_model() -> str:  # Задание имени модели из файл�
     return MODEL
 
 
-def get_title() -> str:
+def get_title() -> str:  # Задание названия книги случаным выборов из файла books.txt
     """
 
     :return: Title from books.txt
@@ -24,7 +24,7 @@ def get_title() -> str:
         return random.choice([index_.strip() for index_ in f.readlines()])
 
 
-def get_year() -> int:
+def get_year() -> int:  # Случайное определение года издания книги
     """
 
     :return:Year of Publishing
@@ -33,7 +33,7 @@ def get_year() -> int:
     return years
 
 
-def get_pages() -> int:
+def get_pages() -> int:   # Задание количества страниц книги
     """
 
     :return:Number of pages
@@ -42,7 +42,7 @@ def get_pages() -> int:
     return pages
 
 
-def get_rating() -> float:
+def get_rating() -> float:   # Задание рейтинга книги
     """
 
     :return: Rating of the book
@@ -51,7 +51,7 @@ def get_rating() -> float:
     return rating
 
 
-def get_isbn(book_number: int = 1000) -> str:
+def get_isbn(book_number: int = 1000) -> str:  # Случайная генерация ISBN
     """
 
     :return: ISBN
@@ -70,27 +70,25 @@ def get_price() -> str:
     return price
 
 
-
-def get_authors():
+def get_authors():   # случайная генерация от 1-го до 3-х авторов книги
     """
 
     :return: Authors of the book
     """
     authors = []
-    fake_obj = faker.Faker("ru")
+    fake_obj = faker.Faker("ru")  # Переключаемся на русский язык
     for index_ in range(random.randint(1, 3)):
-        if random.randint(0, 1) == 0:
+        if random.randint(0, 1) == 0:   # Случайным образом определяем пол автора, при 0 - мужчина, при 1 - женщина
             first_name = fake_obj.first_name_male()
             last_name = fake_obj.last_name_male()
         else:
             first_name = fake_obj.first_name_female()
             last_name = fake_obj.last_name_female()
-        authors.append(first_name + " " + last_name)
+        authors.append(first_name + " " + last_name)  # Добавляем Фамилию и Имя в список
     return authors
 
 
-
-def book_generator(start_pk: int = 1, book_count: int = 5) -> dict:
+def book_generator(start_pk: int = 1, book_count: int = 5) -> dict:  # Функция генерации словаря с книгами
     """
 
     :param start_pk:
