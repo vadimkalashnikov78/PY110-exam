@@ -1,5 +1,6 @@
 import json
 import random
+import faker
 
 from conf import MODEL
 from faker import Faker
@@ -69,19 +70,24 @@ def get_price() -> str:
     return price
 
 
-"""
-def get_authors():
-    
 
-  #  :return: Authors of the book
-   
-    number_of_authors = fake.unique.random_int(min=1, max=3)
-    print(number_of_authors)
+def get_authors():
+    """
+
+    :return: Authors of the book
+    """
     authors = []
-    for index_ in range(number_of_authors):
-        authors.append([str(fake.name())])
+    fake_obj = faker.Faker("ru")
+    for index_ in range(random.randint(1, 3)):
+        if random.randint(0, 1) == 0:
+            first_name = fake_obj.first_name_male()
+            last_name = fake_obj.last_name_male()
+        else:
+            first_name = fake_obj.first_name_female()
+            last_name = fake_obj.last_name_female()
+        authors.append(first_name + " " + last_name)
     return authors
-"""
+
 
 
 def book_generator(start_pk: int = 1, book_count: int = 5) -> dict:
@@ -104,7 +110,7 @@ def book_generator(start_pk: int = 1, book_count: int = 5) -> dict:
                 "isbn13": get_isbn(),
                 "rating": get_rating(),
                 "price": get_price(),
-   #             "authors": get_authors()
+                "authors": get_authors()
             }
         }
         yield book_dict
@@ -113,7 +119,6 @@ def book_generator(start_pk: int = 1, book_count: int = 5) -> dict:
 
 # Запуск основного тела программы
 if __name__ == '__main__':
-  #  print(get_authors())
     books = book_generator(start_pk=1, book_count=100)
     with open("books.json", "w", encoding="UTF-8") as books_write_file:
         json.dump([book for book in books],

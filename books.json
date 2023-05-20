@@ -3,72 +3,98 @@
         "model": "shop_final.book",
         "pk": 1,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1973,
-            "pages": 900,
+            "title": "Robinson",
+            "year": 1996,
+            "pages": 785,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.5,
-            "price": "1823.41 р."
+            "rating": 4.9,
+            "price": "1382.29 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 2,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1928,
-            "pages": 688,
+            "title": "Мертвые души",
+            "year": 1986,
+            "pages": 501,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.0,
-            "price": "1867.48 р."
+            "rating": 2.5,
+            "price": "2386.65 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 3,
         "fields": {
-            "title": "Idiot",
-            "year": 1985,
-            "pages": 247,
+            "title": "Мертвые души",
+            "year": 1962,
+            "pages": 208,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.6,
-            "price": "1338.49 р."
+            "rating": 1.7,
+            "price": "2564.61 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 4,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1930,
-            "pages": 373,
+            "title": "Idiot",
+            "year": 1987,
+            "pages": 683,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.6,
-            "price": "2502.76 р."
+            "rating": 4.9,
+            "price": "2578.96 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 5,
         "fields": {
-            "title": "Sherlock",
-            "year": 1946,
-            "pages": 696,
+            "title": "Война и Мир",
+            "year": 1930,
+            "pages": 373,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.4,
-            "price": "3974.25 р."
+            "rating": 4.9,
+            "price": "2853.87 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 6,
         "fields": {
-            "title": "Sherlock",
-            "year": 1986,
-            "pages": 501,
+            "title": "Война и Мир",
+            "year": 1985,
+            "pages": 376,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.8,
-            "price": "4758.79 р."
+            "rating": 1.2,
+            "price": "1427.45 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
@@ -76,119 +102,160 @@
         "pk": 7,
         "fields": {
             "title": "Robinson",
-            "year": 1962,
-            "pages": 208,
+            "year": 1946,
+            "pages": 234,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.3,
-            "price": "909.78 р."
+            "rating": 2.5,
+            "price": "845.82 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 8,
         "fields": {
-            "title": "Sherlock",
+            "title": "Война и Мир",
             "year": 1925,
             "pages": 698,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.9,
-            "price": "111.96 р."
+            "rating": 3.5,
+            "price": "4112.1 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 9,
         "fields": {
-            "title": "Sherlock",
-            "year": 1987,
-            "pages": 683,
+            "title": "Idiot",
+            "year": 1929,
+            "pages": 818,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.4,
-            "price": "2726.95 р."
+            "rating": 1.3,
+            "price": "667.45 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 10,
         "fields": {
-            "title": "Idiot",
-            "year": 1929,
-            "pages": 818,
+            "title": "Война и Мир",
+            "year": 2002,
+            "pages": 470,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.7,
-            "price": "2830.78 р."
+            "rating": 0.9,
+            "price": "3848.21 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 11,
         "fields": {
-            "title": "Idiot",
-            "year": 2002,
-            "pages": 470,
+            "title": "Мертвые души",
+            "year": 1958,
+            "pages": 188,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.3,
-            "price": "1044.68 р."
+            "rating": 0.5,
+            "price": "2637.02 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 12,
         "fields": {
-            "title": "Sherlock",
-            "year": 1958,
-            "pages": 188,
+            "title": "Idiot",
+            "year": 1923,
+            "pages": 42,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.6,
-            "price": "3088.58 р."
+            "rating": 4.7,
+            "price": "4839.43 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 13,
         "fields": {
-            "title": "Sherlock",
-            "year": 1923,
-            "pages": 42,
+            "title": "Война и Мир",
+            "year": 1905,
+            "pages": 695,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.8,
-            "price": "4426.23 р."
+            "rating": 1.7,
+            "price": "436.25 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 14,
         "fields": {
-            "title": "Robinson",
-            "year": 1905,
-            "pages": 695,
+            "title": "Атлантида",
+            "year": 1995,
+            "pages": 500,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.8,
-            "price": "918.13 р."
+            "rating": 0.1,
+            "price": "2258.63 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 15,
         "fields": {
-            "title": "Атлантида",
-            "year": 1995,
-            "pages": 500,
+            "title": "Robinson",
+            "year": 1918,
+            "pages": 473,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.5,
-            "price": "2809.76 р."
+            "rating": 4.1,
+            "price": "2158.88 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 16,
         "fields": {
-            "title": "Idiot",
-            "year": 1918,
-            "pages": 473,
+            "title": "Мертвые души",
+            "year": 1959,
+            "pages": 732,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.3,
-            "price": "569.88 р."
+            "rating": 1.0,
+            "price": "709.81 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
@@ -196,71 +263,92 @@
         "pk": 17,
         "fields": {
             "title": "Idiot",
-            "year": 1959,
-            "pages": 732,
+            "year": 1991,
+            "pages": 728,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.6,
-            "price": "4712.79 р."
+            "rating": 4.5,
+            "price": "3319.3 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 18,
         "fields": {
-            "title": "Sherlock",
-            "year": 1991,
-            "pages": 728,
+            "title": "Мертвые души",
+            "year": 1990,
+            "pages": 426,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.1,
-            "price": "265.5 р."
+            "rating": 2.3,
+            "price": "2524.8 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 19,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1990,
-            "pages": 426,
+            "title": "Мертвые души",
+            "year": 1953,
+            "pages": 709,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.5,
-            "price": "1184.31 р."
+            "rating": 4.1,
+            "price": "4938.23 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 20,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1953,
-            "pages": 709,
+            "title": "Атлантида",
+            "year": 1988,
+            "pages": 910,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.2,
-            "price": "629.55 р."
+            "rating": 2.5,
+            "price": "2393.36 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 21,
         "fields": {
-            "title": "Sherlock",
-            "year": 1988,
-            "pages": 910,
+            "title": "Мертвые души",
+            "year": 2013,
+            "pages": 206,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.7,
-            "price": "3253.02 р."
+            "rating": 4.5,
+            "price": "1992.17 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 22,
         "fields": {
-            "title": "Война и Мир",
-            "year": 2013,
-            "pages": 206,
+            "title": "Атлантида",
+            "year": 1902,
+            "pages": 784,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.8,
-            "price": "1409.15 р."
+            "rating": 1.7,
+            "price": "472.04 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
@@ -268,35 +356,48 @@
         "pk": 23,
         "fields": {
             "title": "Sherlock",
-            "year": 1902,
-            "pages": 784,
+            "year": 1997,
+            "pages": 854,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.4,
-            "price": "511.89 р."
+            "rating": 4.8,
+            "price": "672.47 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 24,
         "fields": {
-            "title": "Robinson",
-            "year": 1997,
-            "pages": 854,
+            "title": "Idiot",
+            "year": 2006,
+            "pages": 549,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.1,
-            "price": "2794.05 р."
+            "rating": 3.9,
+            "price": "3710.13 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 25,
         "fields": {
-            "title": "Idiot",
-            "year": 2006,
-            "pages": 549,
+            "title": "Мертвые души",
+            "year": 1968,
+            "pages": 480,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.6,
-            "price": "503.6 р."
+            "rating": 3.7,
+            "price": "4695.95 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова"
+            ]
         }
     },
     {
@@ -304,71 +405,96 @@
         "pk": 26,
         "fields": {
             "title": "Sherlock",
-            "year": 1968,
-            "pages": 480,
+            "year": 2003,
+            "pages": 790,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.3,
-            "price": "3309.94 р."
+            "rating": 4.9,
+            "price": "180.61 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 27,
         "fields": {
-            "title": "Мертвые души",
-            "year": 2003,
-            "pages": 790,
+            "title": "Idiot",
+            "year": 1998,
+            "pages": 969,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.1,
-            "price": "201.02 р."
+            "rating": 1.3,
+            "price": "2431.53 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 28,
         "fields": {
-            "title": "Idiot",
-            "year": 1998,
-            "pages": 969,
+            "title": "Война и Мир",
+            "year": 2021,
+            "pages": 224,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.2,
-            "price": "4732.92 р."
+            "rating": 2.4,
+            "price": "1853.99 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 29,
         "fields": {
-            "title": "Idiot",
-            "year": 2021,
-            "pages": 224,
+            "title": "Война и Мир",
+            "year": 1927,
+            "pages": 558,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.5,
-            "price": "4395.5 р."
+            "rating": 0.9,
+            "price": "3568.47 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 30,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1927,
-            "pages": 558,
+            "title": "Мертвые души",
+            "year": 1969,
+            "pages": 181,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.1,
-            "price": "3880.5 р."
+            "rating": 1.2,
+            "price": "4439.42 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 31,
         "fields": {
-            "title": "Idiot",
-            "year": 1969,
-            "pages": 181,
+            "title": "Атлантида",
+            "year": 1922,
+            "pages": 921,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.1,
-            "price": "3071.44 р."
+            "rating": 3.9,
+            "price": "4726.42 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
@@ -376,35 +502,47 @@
         "pk": 32,
         "fields": {
             "title": "Robinson",
-            "year": 1922,
-            "pages": 921,
+            "year": 2015,
+            "pages": 716,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.8,
-            "price": "4023.97 р."
+            "rating": 0.7,
+            "price": "1390.13 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 33,
         "fields": {
-            "title": "Idiot",
-            "year": 2015,
-            "pages": 716,
+            "title": "Robinson",
+            "year": 1989,
+            "pages": 722,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.3,
-            "price": "1721.3 р."
+            "rating": 1.2,
+            "price": "1049.41 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 34,
         "fields": {
-            "title": "Idiot",
-            "year": 1989,
-            "pages": 722,
+            "title": "Мертвые души",
+            "year": 1913,
+            "pages": 259,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.2,
-            "price": "4545.64 р."
+            "rating": 4.0,
+            "price": "4997.63 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
@@ -412,23 +550,30 @@
         "pk": 35,
         "fields": {
             "title": "Sherlock",
-            "year": 1913,
-            "pages": 259,
+            "year": 1932,
+            "pages": 165,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.7,
-            "price": "4814.41 р."
+            "rating": 2.3,
+            "price": "223.79 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 36,
         "fields": {
-            "title": "Атлантида",
-            "year": 1932,
-            "pages": 165,
+            "title": "Robinson",
+            "year": 1920,
+            "pages": 293,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.3,
-            "price": "1403.55 р."
+            "rating": 0.4,
+            "price": "4518.61 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
@@ -436,383 +581,509 @@
         "pk": 37,
         "fields": {
             "title": "Война и Мир",
-            "year": 1920,
-            "pages": 293,
+            "year": 1936,
+            "pages": 96,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.0,
-            "price": "1651.22 р."
+            "rating": 0.8,
+            "price": "3476.65 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 38,
         "fields": {
-            "title": "Idiot",
-            "year": 1936,
-            "pages": 96,
+            "title": "Sherlock",
+            "year": 1911,
+            "pages": 2,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.8,
-            "price": "2662.73 р."
+            "rating": 4.9,
+            "price": "4387.12 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 39,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1911,
-            "pages": 2,
+            "title": "Sherlock",
+            "year": 1900,
+            "pages": 322,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.3,
-            "price": "2490.88 р."
+            "rating": 4.2,
+            "price": "4335.13 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 40,
         "fields": {
-            "title": "Атлантида",
-            "year": 1900,
-            "pages": 322,
+            "title": "Robinson",
+            "year": 1940,
+            "pages": 834,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.5,
-            "price": "662.6 р."
+            "rating": 4.9,
+            "price": "2394.3 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 41,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1940,
-            "pages": 834,
+            "title": "Idiot",
+            "year": 2004,
+            "pages": 17,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.4,
-            "price": "4588.25 р."
+            "rating": 0.7,
+            "price": "3941.18 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 42,
         "fields": {
-            "title": "Sherlock",
-            "year": 2004,
-            "pages": 17,
+            "title": "Мертвые души",
+            "year": 1981,
+            "pages": 875,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.3,
-            "price": "1839.94 р."
+            "rating": 3.2,
+            "price": "2916.35 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 43,
         "fields": {
-            "title": "Robinson",
-            "year": 1981,
-            "pages": 875,
+            "title": "Sherlock",
+            "year": 2009,
+            "pages": 263,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.7,
-            "price": "1658.42 р."
+            "rating": 1.4,
+            "price": "4942.96 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 44,
         "fields": {
-            "title": "Robinson",
-            "year": 2009,
-            "pages": 263,
+            "title": "Война и Мир",
+            "year": 1937,
+            "pages": 532,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.8,
-            "price": "1911.42 р."
+            "rating": 3.1,
+            "price": "3930.93 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 45,
         "fields": {
-            "title": "Атлантида",
-            "year": 1937,
-            "pages": 532,
+            "title": "Robinson",
+            "year": 1966,
+            "pages": 799,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.6,
-            "price": "4335.87 р."
+            "rating": 2.3,
+            "price": "2142.37 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 46,
         "fields": {
-            "title": "Robinson",
-            "year": 1966,
-            "pages": 799,
+            "title": "Атлантида",
+            "year": 1999,
+            "pages": 789,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.7,
-            "price": "3136.43 р."
+            "rating": 0.7,
+            "price": "3200.01 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 47,
         "fields": {
-            "title": "Атлантида",
-            "year": 1999,
-            "pages": 789,
+            "title": "Мертвые души",
+            "year": 1970,
+            "pages": 122,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.2,
-            "price": "2732.78 р."
+            "rating": 1.9,
+            "price": "906.76 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 48,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1970,
-            "pages": 122,
+            "title": "Атлантида",
+            "year": 1915,
+            "pages": 199,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.4,
-            "price": "1935.06 р."
+            "rating": 3.9,
+            "price": "1839.46 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 49,
         "fields": {
-            "title": "Robinson",
-            "year": 1915,
-            "pages": 199,
+            "title": "Idiot",
+            "year": 1924,
+            "pages": 930,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.7,
-            "price": "3239.72 р."
+            "rating": 0.4,
+            "price": "2140.01 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 50,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1924,
-            "pages": 930,
+            "title": "Мертвые души",
+            "year": 2016,
+            "pages": 300,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.1,
-            "price": "4304.47 р."
+            "rating": 1.0,
+            "price": "2154.75 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 51,
         "fields": {
-            "title": "Война и Мир",
-            "year": 2016,
-            "pages": 300,
+            "title": "Sherlock",
+            "year": 1948,
+            "pages": 328,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.6,
-            "price": "1645.11 р."
+            "rating": 0.7,
+            "price": "900.24 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 52,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1948,
-            "pages": 328,
+            "title": "Idiot",
+            "year": 1984,
+            "pages": 238,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.6,
-            "price": "2568.37 р."
+            "rating": 2.9,
+            "price": "1284.52 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 53,
         "fields": {
-            "title": "Idiot",
-            "year": 1984,
-            "pages": 234,
+            "title": "Атлантида",
+            "year": 1945,
+            "pages": 635,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.5,
-            "price": "1197.17 р."
+            "rating": 4.5,
+            "price": "1049.75 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 54,
         "fields": {
-            "title": "Idiot",
-            "year": 1945,
-            "pages": 635,
+            "title": "Robinson",
+            "year": 1979,
+            "pages": 498,
             "isbn13": "978-0-651-72862-1",
             "rating": 0.1,
-            "price": "3236.17 р."
+            "price": "4989.09 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 55,
         "fields": {
-            "title": "Idiot",
-            "year": 1979,
-            "pages": 498,
+            "title": "Атлантида",
+            "year": 2014,
+            "pages": 891,
             "isbn13": "978-0-651-72862-1",
             "rating": 2.3,
-            "price": "2775.97 р."
+            "price": "945.1 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 56,
         "fields": {
-            "title": "Атлантида",
-            "year": 2014,
-            "pages": 891,
+            "title": "Sherlock",
+            "year": 2011,
+            "pages": 123,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.4,
-            "price": "3174.52 р."
+            "rating": 4.7,
+            "price": "1451.27 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 57,
         "fields": {
-            "title": "Idiot",
-            "year": 2011,
-            "pages": 123,
+            "title": "Атлантида",
+            "year": 1976,
+            "pages": 288,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.4,
-            "price": "3000.84 р."
+            "rating": 1.1,
+            "price": "612.02 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 58,
         "fields": {
-            "title": "Idiot",
-            "year": 1976,
-            "pages": 288,
+            "title": "Sherlock",
+            "year": 1935,
+            "pages": 483,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.7,
-            "price": "2554.05 р."
+            "rating": 1.7,
+            "price": "3441.75 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 59,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1935,
-            "pages": 483,
+            "title": "Robinson",
+            "year": 1960,
+            "pages": 337,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.4,
-            "price": "986.55 р."
+            "rating": 3.2,
+            "price": "3425.18 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 60,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1960,
-            "pages": 337,
+            "title": "Idiot",
+            "year": 1942,
+            "pages": 972,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.3,
-            "price": "4823.32 р."
+            "rating": 3.7,
+            "price": "521.34 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 61,
         "fields": {
-            "title": "Idiot",
-            "year": 1942,
-            "pages": 972,
+            "title": "Мертвые души",
+            "year": 2022,
+            "pages": 13,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.4,
-            "price": "1828.03 р."
+            "rating": 3.3,
+            "price": "538.36 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 62,
         "fields": {
-            "title": "Война и Мир",
-            "year": 2022,
-            "pages": 13,
+            "title": "Sherlock",
+            "year": 1901,
+            "pages": 56,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.7,
-            "price": "654.17 р."
+            "rating": 0.0,
+            "price": "4189.39 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 63,
         "fields": {
-            "title": "Атлантида",
-            "year": 1901,
-            "pages": 56,
+            "title": "Robinson",
+            "year": 1906,
+            "pages": 147,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.2,
-            "price": "3637.31 р."
+            "rating": 2.7,
+            "price": "2960.09 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 64,
         "fields": {
-            "title": "Sherlock",
-            "year": 1906,
-            "pages": 147,
+            "title": "Robinson",
+            "year": 1957,
+            "pages": 668,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.6,
-            "price": "2803.85 р."
+            "rating": 3.0,
+            "price": "3968.24 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 65,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1957,
-            "pages": 668,
+            "title": "Мертвые души",
+            "year": 1983,
+            "pages": 730,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.8,
-            "price": "2915.59 р."
+            "rating": 4.2,
+            "price": "1049.06 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 66,
         "fields": {
-            "title": "Robinson",
-            "year": 1983,
-            "pages": 730,
+            "title": "Idiot",
+            "year": 1909,
+            "pages": 837,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.1,
-            "price": "842.78 р."
+            "rating": 2.2,
+            "price": "1071.61 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 67,
         "fields": {
-            "title": "Idiot",
-            "year": 1909,
-            "pages": 837,
+            "title": "Атлантида",
+            "year": 2001,
+            "pages": 26,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.7,
-            "price": "4679.11 р."
+            "rating": 3.6,
+            "price": "1830.56 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 68,
         "fields": {
-            "title": "Sherlock",
-            "year": 2001,
-            "pages": 26,
+            "title": "Robinson",
+            "year": 1903,
+            "pages": 934,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.8,
-            "price": "3798.79 р."
+            "rating": 1.4,
+            "price": "3327.4 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
@@ -820,179 +1091,238 @@
         "pk": 69,
         "fields": {
             "title": "Sherlock",
-            "year": 1903,
-            "pages": 934,
+            "year": 2010,
+            "pages": 380,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.2,
-            "price": "4038.75 р."
+            "rating": 2.7,
+            "price": "451.82 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 70,
         "fields": {
-            "title": "Idiot",
-            "year": 2010,
-            "pages": 380,
+            "title": "Мертвые души",
+            "year": 1947,
+            "pages": 130,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.2,
-            "price": "4964.75 р."
+            "rating": 2.1,
+            "price": "4800.98 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 71,
         "fields": {
-            "title": "Мертвые души",
-            "year": 1947,
-            "pages": 130,
+            "title": "Война и Мир",
+            "year": 1916,
+            "pages": 211,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.0,
-            "price": "3407.54 р."
+            "rating": 3.4,
+            "price": "2382.24 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 72,
         "fields": {
-            "title": "Idiot",
-            "year": 1916,
-            "pages": 211,
+            "title": "Robinson",
+            "year": 1926,
+            "pages": 902,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.5,
-            "price": "4337.67 р."
+            "rating": 3.6,
+            "price": "804.6 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 73,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1926,
-            "pages": 902,
+            "title": "Атлантида",
+            "year": 2012,
+            "pages": 140,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.7,
-            "price": "1855.83 р."
+            "rating": 2.8,
+            "price": "2139.98 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 74,
         "fields": {
-            "title": "Мертвые души",
-            "year": 2012,
-            "pages": 140,
+            "title": "Sherlock",
+            "year": 1917,
+            "pages": 648,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.9,
-            "price": "3948.71 р."
+            "rating": 2.6,
+            "price": "4734.39 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 75,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1917,
-            "pages": 648,
+            "title": "Мертвые души",
+            "year": 1980,
+            "pages": 767,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.2,
-            "price": "3175.02 р."
+            "rating": 3.6,
+            "price": "3888.28 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 76,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1980,
-            "pages": 767,
+            "title": "Мертвые души",
+            "year": 1964,
+            "pages": 880,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.7,
-            "price": "2814.57 р."
+            "rating": 1.8,
+            "price": "4500.37 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 77,
         "fields": {
-            "title": "Robinson",
-            "year": 1964,
-            "pages": 880,
+            "title": "Idiot",
+            "year": 1944,
+            "pages": 346,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.6,
-            "price": "4383.22 р."
+            "rating": 3.0,
+            "price": "3527.22 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 78,
         "fields": {
-            "title": "Атлантида",
-            "year": 1944,
-            "pages": 346,
+            "title": "Война и Мир",
+            "year": 1943,
+            "pages": 777,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.2,
-            "price": "2710.64 р."
+            "rating": 2.0,
+            "price": "1641.88 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 79,
         "fields": {
-            "title": "Sherlock",
-            "year": 1943,
-            "pages": 777,
+            "title": "Атлантида",
+            "year": 1961,
+            "pages": 703,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.2,
-            "price": "3014.27 р."
+            "rating": 4.4,
+            "price": "3459.97 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 80,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1961,
-            "pages": 703,
+            "title": "Idiot",
+            "year": 1951,
+            "pages": 774,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.9,
-            "price": "4659.1 р."
+            "rating": 3.7,
+            "price": "1705.77 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 81,
         "fields": {
-            "title": "Атлантида",
-            "year": 1951,
-            "pages": 774,
+            "title": "Sherlock",
+            "year": 1928,
+            "pages": 955,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.9,
-            "price": "1339.0 р."
+            "rating": 3.7,
+            "price": "4159.23 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 82,
         "fields": {
-            "title": "Idiot",
-            "year": 1996,
-            "pages": 76,
+            "title": "Robinson",
+            "year": 2019,
+            "pages": 845,
             "isbn13": "978-0-651-72862-1",
             "rating": 0.6,
-            "price": "4936.7 р."
+            "price": "372.22 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 83,
         "fields": {
-            "title": "Атлантида",
-            "year": 2019,
-            "pages": 845,
+            "title": "Война и Мир",
+            "year": 2005,
+            "pages": 248,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.8,
-            "price": "2532.02 р."
+            "rating": 1.5,
+            "price": "538.01 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
@@ -1000,11 +1330,14 @@
         "pk": 84,
         "fields": {
             "title": "Idiot",
-            "year": 2005,
-            "pages": 248,
+            "year": 1938,
+            "pages": 914,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.3,
-            "price": "2560.09 р."
+            "rating": 2.8,
+            "price": "823.42 р.",
+            "authors": [
+                "Ефрем Агафонов"
+            ]
         }
     },
     {
@@ -1012,23 +1345,31 @@
         "pk": 85,
         "fields": {
             "title": "Мертвые души",
-            "year": 1938,
-            "pages": 914,
+            "year": 2018,
+            "pages": 425,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.8,
-            "price": "3166.58 р."
+            "rating": 1.9,
+            "price": "3715.37 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 86,
         "fields": {
-            "title": "Idiot",
-            "year": 2018,
-            "pages": 425,
+            "title": "Атлантида",
+            "year": 1941,
+            "pages": 7,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.4,
-            "price": "2456.46 р."
+            "rating": 4.5,
+            "price": "610.93 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова"
+            ]
         }
     },
     {
@@ -1036,155 +1377,210 @@
         "pk": 87,
         "fields": {
             "title": "Война и Мир",
-            "year": 1941,
-            "pages": 7,
+            "year": 1971,
+            "pages": 606,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.6,
-            "price": "4910.22 р."
+            "rating": 1.2,
+            "price": "4027.86 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 88,
         "fields": {
-            "title": "Атлантида",
-            "year": 1971,
-            "pages": 606,
+            "title": "Война и Мир",
+            "year": 1975,
+            "pages": 724,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.6,
-            "price": "2061.21 р."
+            "rating": 0.1,
+            "price": "1840.65 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 89,
         "fields": {
-            "title": "Атлантида",
-            "year": 1975,
-            "pages": 724,
+            "title": "Война и Мир",
+            "year": 1921,
+            "pages": 102,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.0,
-            "price": "3622.28 р."
+            "rating": 3.8,
+            "price": "3808.11 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 90,
         "fields": {
-            "title": "Idiot",
-            "year": 1921,
-            "pages": 102,
+            "title": "Sherlock",
+            "year": 1912,
+            "pages": 418,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.9,
-            "price": "416.66 р."
+            "rating": 1.5,
+            "price": "2617.67 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 91,
         "fields": {
-            "title": "Robinson",
-            "year": 1912,
-            "pages": 418,
+            "title": "Война и Мир",
+            "year": 1952,
+            "pages": 632,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.3,
-            "price": "2838.96 р."
+            "rating": 3.2,
+            "price": "3194.98 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов",
+                "Селиван Медведев"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 92,
         "fields": {
-            "title": "Idiot",
-            "year": 1952,
-            "pages": 632,
+            "title": "Robinson",
+            "year": 1978,
+            "pages": 385,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.9,
-            "price": "4009.68 р."
+            "rating": 3.2,
+            "price": "2446.62 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 93,
         "fields": {
-            "title": "Sherlock",
-            "year": 1978,
-            "pages": 385,
+            "title": "Robinson",
+            "year": 1950,
+            "pages": 941,
             "isbn13": "978-0-651-72862-1",
-            "rating": 1.9,
-            "price": "1383.22 р."
+            "rating": 4.4,
+            "price": "4042.06 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 94,
         "fields": {
-            "title": "Robinson",
-            "year": 1950,
-            "pages": 941,
+            "title": "Sherlock",
+            "year": 2017,
+            "pages": 306,
             "isbn13": "978-0-651-72862-1",
-            "rating": 0.3,
-            "price": "542.58 р."
+            "rating": 3.1,
+            "price": "4152.86 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 95,
         "fields": {
-            "title": "Мертвые души",
-            "year": 2017,
-            "pages": 306,
+            "title": "Idiot",
+            "year": 2020,
+            "pages": 918,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.5,
-            "price": "1756.25 р."
+            "rating": 3.6,
+            "price": "1680.03 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 96,
         "fields": {
-            "title": "Idiot",
-            "year": 2020,
-            "pages": 918,
+            "title": "Sherlock",
+            "year": 1934,
+            "pages": 215,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.8,
-            "price": "1697.71 р."
+            "rating": 3.2,
+            "price": "683.25 р.",
+            "authors": [
+                "Елена Агафонова"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 97,
         "fields": {
-            "title": "Idiot",
-            "year": 1934,
-            "pages": 215,
+            "title": "Мертвые души",
+            "year": 1993,
+            "pages": 216,
             "isbn13": "978-0-651-72862-1",
-            "rating": 3.3,
-            "price": "172.21 р."
+            "rating": 2.9,
+            "price": "3152.55 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 98,
         "fields": {
-            "title": "Robinson",
-            "year": 1993,
-            "pages": 216,
+            "title": "Idiot",
+            "year": 1919,
+            "pages": 765,
             "isbn13": "978-0-651-72862-1",
-            "rating": 4.5,
-            "price": "4156.94 р."
+            "rating": 4.9,
+            "price": "1462.23 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Жанна Громова",
+                "Пелагея Медведева"
+            ]
         }
     },
     {
         "model": "shop_final.book",
         "pk": 99,
         "fields": {
-            "title": "Война и Мир",
-            "year": 1919,
-            "pages": 785,
+            "title": "Атлантида",
+            "year": 1910,
+            "pages": 287,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.1,
-            "price": "4614.81 р."
+            "rating": 4.8,
+            "price": "3220.61 р.",
+            "authors": [
+                "Елена Агафонова",
+                "Жанна Громова",
+                "Селиван Медведев"
+            ]
         }
     },
     {
@@ -1192,11 +1588,16 @@
         "pk": 100,
         "fields": {
             "title": "Robinson",
-            "year": 1910,
-            "pages": 287,
+            "year": 1967,
+            "pages": 535,
             "isbn13": "978-0-651-72862-1",
-            "rating": 2.9,
-            "price": "2129.23 р."
+            "rating": 0.6,
+            "price": "2456.36 р.",
+            "authors": [
+                "Ефрем Агафонов",
+                "Иларион Громов",
+                "Пелагея Медведева"
+            ]
         }
     }
 ]
